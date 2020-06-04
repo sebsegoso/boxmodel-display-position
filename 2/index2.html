@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ejercicio 2</title>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/2bbc03571f.js"
+      crossorigin="anonymous"
+    ></script>
+    <style media="screen" type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      .square {
+        height: 200px;
+        width: 200px;
+      }
+      .square__red {
+        background-color: rgba(255, 0, 0, 0.5);
+      }
+      .square__green {
+        background-color: rgba(0, 255, 0, 0.5);
+        left: 25px;
+        position: absolute;
+        top: 25px;
+        z-index: -1; /* AGREGADO */
+      }
+      .square__blue {
+        background-color: rgba(0, 0, 255, 0.5);
+        left: 50px;
+        position: absolute;
+        top: 50px;
+        z-index: -2; /* AGREGADO */
+      }
+
+      /* Estilos Botón Siguiente*/
+      .button-next {
+        color: #a15760;
+        text-shadow: -5px 3px 8px rgba(000, 000, 000, 0.3);
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 999;
+      }
+
+      .button-next:hover {
+        color: #33aa11;
+        text-shadow: -4px 1px 1px rgba(000, 000, 000, 0.3);
+        transition: text-shadow 0.5s, color 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="square square__red"></section>
+    <section class="square square__green"></section>
+    <section class="square square__blue"></section>
+    <!-- BOTÓN SIGUIENTE -->
+    <div>
+      <a href="../3/index3.html">
+        <i class="button-next fas fa-arrow-circle-right fa-4x"></i>
+      </a>
+    </div>
+  </body>
+</html>

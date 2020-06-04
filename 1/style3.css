@@ -1,0 +1,49 @@
+/*Ejercicio 1*/
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 110vh;
+}
+
+.navbar{
+  background-color: green;
+  position: fixed;
+  top: 0px;
+  padding: 6px;
+}
+
+.paragraphs{
+  padding-top: 9%;
+}
+
+.box {
+  display: inline-block;
+  width: 24.61%;  
+  padding: 25px;   
+}
+
+img{
+  max-width: 100%;
+}
+
+/* Estilos Botón Siguiente*/
+.button-next{
+  color: #a15760;
+  text-shadow: -5px 3px 8px rgba(000, 000, 000, .3);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.button-next:hover{
+  color: #33aa11;  
+  text-shadow: -4px 1px 1px rgba(000, 000, 000, .3);
+  transition: text-shadow .5s , color 1s;
+}
+
+

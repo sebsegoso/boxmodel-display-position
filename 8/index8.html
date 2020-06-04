@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 8</title>
+    <!-- FONT AWESOME -->
+    <script
+      src="https://kit.fontawesome.com/2bbc03571f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style media="screen" type="text/css">
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      ul.menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul.menu li {
+        background: olive;
+        box-sizing: border-box;
+        float: left;
+        width: 25%;
+      }
+      ul.menu li a {
+        color: #fff;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+      }
+      ul.menu li a:hover {
+        background: #000;
+      }
+
+      /*Agregado*/
+      p {
+        clear: left;
+      }
+
+      /* Estilos Botón Siguiente*/
+      .button-next {
+        color: #a15760;
+        text-shadow: -5px 3px 8px rgba(000, 000, 000, 0.3);
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 999;
+      }
+
+      .button-next:hover {
+        color: #33aa11;
+        text-shadow: -4px 1px 1px rgba(000, 000, 000, 0.3);
+        transition: text-shadow 0.5s, color 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="menu">
+      <li><a href="#">Item-1</a></li>
+      <li><a href="#">Item-2</a></li>
+      <li><a href="#">Item-3</a></li>
+    </ul>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum
+      aperiamomnis magni aut voluptas dignissimos, sunt quis at in ducimus quo,
+      vitae exullam suscipit. Deleniti animi nulla eos culpa!
+    </p>
+    <!-- BOTÓN SIGUIENTE -->
+    <div>
+      <a href="../9/index9.html">
+        <i class="button-next fas fa-arrow-circle-right fa-4x"></i>
+      </a>
+    </div>
+  </body>
+</html>

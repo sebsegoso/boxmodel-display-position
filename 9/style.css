@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  color: white;
+  background-color: black;
+  padding: 10px 30px;
+}
+
+.container {
+    margin: auto;
+    width: 70vw;
+    height: 50vh;
+}
+
+.middle-container{
+    display: inline;
+}
+
+.menu {
+  background-color: silver;
+  padding: 10px 30px;
+  width: 15%;
+  height: 100%;
+  float: left;
+}
+
+.menu ul {
+  padding-left: 25px;
+}
+
+.content {
+  padding: 10px 30px;
+}
+
+.footer {
+  padding: 10px 30px;
+  clear: left;
+  background-color: gray;
+  color: white;
+  text-align: center;
+}
+
+/* Estilos Botón Siguiente*/
+.button-next{
+  color: #a15760;
+  text-shadow: -5px 3px 8px rgba(000, 000, 000, .3);
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 999;
+}
+
+.button-next:hover{
+  color: #33aa11;  
+  text-shadow: -4px 1px 1px rgba(000, 000, 000, .3);
+  transition: text-shadow .5s , color 1s;
+}
